@@ -39,9 +39,9 @@
   },
   "eslintConfig": {
     "extends": [
+      "eslint:recommended",
       "react-app",
       "react-app/jest",
-      "eslint:recommended",
       "prettier"
     ]
   },
@@ -58,10 +58,10 @@
     ]
   },
   "devDependencies": {
-    "eslint": "^8.10.0",
+    "eslint": "^8.24.0",
     "eslint-config-prettier": "^8.5.0",
-    "husky": "^7.0.4",
-    "prettier": "^2.5.1"
+    "husky": "^8.0.1",
+    "prettier": "^2.7.1"
   },
   "prettier": {}
 }
