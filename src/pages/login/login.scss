@@ -1,0 +1,24 @@
+.boton{
+    border-radius: 50px;
+    background:  #6196fb ;
+    white-space: nowrap;
+    padding: 10px 22px;
+    color: #010606;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+    font-weight:bold;
+    &:hover{
+        transition: all 0.2s ease-in-out;
+        background: rgb(73, 0, 245);
+        color: #010906;
+    }
+
+}
+body{
+    background: rgb(177, 177, 177);
+}
+.card{
+    text-align: center;
+}
